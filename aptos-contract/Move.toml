@@ -1,0 +1,16 @@
+[package]
+name = "chainprofile-ai"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ChainProfile = "0xd850d1d662ba4e95145188094ce9a56ad7486259b4f249b6d89eed075780383c"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
